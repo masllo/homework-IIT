@@ -1,0 +1,74 @@
+h1{
+    font-family: Verdana;
+}
+
+a{
+    font-family: Verdana;
+    color:rgb(82, 96, 190);
+}
+
+dr3{
+    font-family: Verdana;
+    color:rgba(28, 68, 95, 0.947);
+}
+
+dr2{
+    font-family: Verdana;
+    color: rgb(46, 93, 173);
+}
+
+img{
+    border: 2px solid rgb(77, 220, 55);
+}
+
+aside{
+    background-color: rgb(184, 191, 199);
+    border: 2px solid black;
+}
+
+dr1{
+    font-family: Verdana;
+    background-color: rgb(103, 235, 180);
+    border: 2px solid black;
+    color:rgb(100, 131, 36);
+}
+
+h1,
+article{
+    color: rgb(69, 87, 19);
+    font-family: Verdana;
+}
+
+h1,
+a,
+article{
+    background-color: rgb(192, 206, 185);
+    border: 2px solid black;
+}
+
+main,
+header{
+    background-color: rgb(145, 134, 120);
+    border-bottom: 2px solid black;
+}
+
+* {
+    position: relative;
+    padding: 25px 25px 20px;
+    margin: 0;
+    border-radius: 4px;
+}
+
+*:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+*::before {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 10px;
+    letter-spacing: 0.04em;
+}
